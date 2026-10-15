@@ -29,5 +29,8 @@ const PALABRAS = [
     { palabra: "try", categoria: "excepciones", descripcion: "Inicia un bloque vigilado." },
     { palabra: "catch", categoria: "excepciones", descripcion: "Captura una excepción." },
     { palabra: "finally", categoria: "excepciones", descripcion: "Ejecuta el bloque final." },
-    { palabra: "throw", categoria: "excepciones", descripcion: "Lanza una excepción." }
+    { palabra: "throw", categoria: "excepciones", descripcion: "Lanza una excepción." },
+    { palabra: "interface", categoria: "clases", descripcion: "Define un contrato para las clases." },
+    { palabra: "const", categoria: "variables", descripcion: "Define una constante." },
+    { palabra: "namespace", categoria: "clases", descripcion: "Organiza el código en espacios de nombres." }
 ];
