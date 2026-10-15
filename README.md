@@ -3,4 +3,5 @@
 Esta aplicación muestra diferentes comandos existentes en PHP
 
 ## Cómo ejecutar
-<!--Pendiente de documentar-->
+Abrir index.html en el navegador (doble clic).
+Requiere un navegador moderno.
