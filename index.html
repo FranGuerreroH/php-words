@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación para consultar palabras reservadas de PHP">
+    <title>PHP Words</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Fondo decorativo de la aplicación -->
+    <div class="fondo-decorativo" aria-hidden="true"></div>
+
+    <main class="contenedor">
+        <!-- Cabecera principal -->
+        <header class="cabecera">
+            <div class="icono-principal" aria-hidden="true">&lt;/&gt;</div>
+            <h1 id="titulo">PHP Words</h1>
+            <p id="subtitulo">Palabras reservadas de PHP</p>
+            <span id="version" class="version">0.1.0</span>
+        </header>
+
+        <!-- Zona para los controles de futuras ampliaciones -->
+        <section class="panel-controles" aria-label="Filtros">
+            <div id="controles"></div>
+        </section>
+
+        <!-- Resultados de la aplicación -->
+        <section class="resultados" aria-label="Listado de palabras">
+            <div class="encabezado-resultados">
+                <h2>Explora PHP</h2>
+                <p id="contador" aria-live="polite">Mostrando 0 de 0 palabras</p>
+            </div>
+
+            <ul id="lista" class="lista-palabras"></ul>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="pie">
+            <p>Aprende PHP, una palabra cada vez.</p>
+        </footer>
+    </main>
+
+    <!-- Los scripts se cargan en el orden obligatorio -->
+    <script src="js/config.js"></script>
+    <script src="js/palabras.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
