@@ -32,5 +32,10 @@ const PALABRAS = [
     { palabra: "throw", categoria: "excepciones", descripcion: "Lanza una excepción." },
     { palabra: "interface", categoria: "clases", descripcion: "Define un contrato para las clases." },
     { palabra: "const", categoria: "variables", descripcion: "Define una constante." },
-    { palabra: "namespace", categoria: "clases", descripcion: "Organiza el código en espacios de nombres." }
+    { palabra: "namespace", categoria: "clases", descripcion: "Organiza el código en espacios de nombres." },
+    { palabra: "abstract", categoria: "clases", descripcion: "Declara una clase o método abstracto." },
+    { palabra: "final", categoria: "clases", descripcion: "Impide que una clase se herede o un método se sobrescriba." },
+    { palabra: "static", categoria: "clases", descripcion: "Define un miembro asociado a la clase." },
+    { palabra: "trait", categoria: "clases", descripcion: "Define métodos reutilizables entre clases." },
+    { palabra: "implements", categoria: "clases", descripcion: "Indica las interfaces que implementa una clase." }
 ];
